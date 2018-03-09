@@ -101,7 +101,7 @@ alias unlock="DISPLAY=:0 cinnamon-screensaver-command -d"
 r-delregion() {
     if ((REGION_ACTIVE)) then
        zle kill-region
-    else 
+    else
        zle $1
     fi
 }
@@ -153,3 +153,6 @@ for key kcap seq mode widget (
   zle -N key-$key
   bindkey ${terminfo[$kcap]-$seq} key-$key
 }
+
+eval $(thefuck --alias)
+
