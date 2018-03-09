@@ -21,6 +21,9 @@ set encoding=utf-8
 set bg=dark
 set scrolloff=3
 
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
 autocmd InsertEnter * set cursorline cursorcolumn
 autocmd InsertLeave * set nocursorline nocursorcolumn
 highlight cursorline cterm=none ctermfg=7 ctermbg=4
