@@ -155,4 +155,4 @@ for key kcap seq mode widget (
 }
 
 eval $(thefuck --alias)
-
+source /usr/local/bin/virtualenvwrapper.sh
