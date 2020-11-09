@@ -4,3 +4,6 @@ alias unlock="DISPLAY=:0 cinnamon-screensaver-command -d"
 alias aliases="$EDITOR ~/.zsh_aliases && source ~/.zsh_aliases && echo 'Updated aliases.'"
 alias cls='printf "\33c\e[3J"'
 alias serve="python3 -m http.server"
+
+# Only works if you install "bat"
+alias cat="bat"
